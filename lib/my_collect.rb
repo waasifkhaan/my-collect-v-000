@@ -1,5 +1,4 @@
 def my_collect(array)
-  if block_given?
     i = 0 
       collection = []
         while i < array.length 
@@ -8,6 +7,5 @@ def my_collect(array)
         end
         collection 
       end
-  else 
-    "please provide block"
+  
   end
