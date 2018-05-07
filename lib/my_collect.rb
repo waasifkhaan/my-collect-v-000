@@ -6,6 +6,7 @@ def collect(array)
         collection << yield(array[i])
           i += 1 
         end
+      end
   else 
     "please provide block"
   end
